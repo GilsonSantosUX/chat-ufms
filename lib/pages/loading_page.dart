@@ -11,11 +11,10 @@ class LoadingPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // RefreshProgressIndicator(),
-              CircularProgressIndicator(
+              const CircularProgressIndicator(
                 backgroundColor: Colors.white,
               ),
-              SizedBox(
+              const SizedBox(
                 height: 16,
               ),
               Text(
